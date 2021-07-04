@@ -1,0 +1,207 @@
+body{
+    width:100%;
+    -webkit-text-size-adjust:100%;
+    
+}
+
+
+#caption{
+    color:#8e8e8e;
+    font-family: monospace;
+    font-size:25px;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+   background-color: white;
+  
+}
+
+.heading{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 120px;
+    font-stretch: condensed;
+    letter-spacing: 0.3px;
+    
+}
+
+
+
+#particles{
+    height:550px;
+}
+
+
+.my-svg{
+    width:65%;
+}
+
+.mobile-svg{
+    margin-top: -60px;
+    margin-bottom: -40px;
+}
+
+@media only screen and (max-width: 60em) {
+    .heading{
+    font-size: 65px;
+  }
+
+  .my-svg{
+    width:100%;
+}
+
+  .mobile-svg{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  
+  #particles{
+      height:500px;
+  }
+  
+  #about .type{
+      font-size:20px;
+      line-height: 30px;
+  }
+  
+ 
+  
+  #caption{
+      font-size:20px;
+      letter-spacing: 0.3px;
+  }
+
+  #svg1{
+    padding-bottom: 20px;
+}
+
+#svg{
+    width: 200%;
+    padding-bottom: 20px;
+}
+  
+}
+
+#portfolio{
+    background-color:#ffffff;
+    text-align:center;
+    color:black;
+}
+
+h3{
+    font-family:"Dosis";
+    letter-spacing: 0.3px;
+    font-size:35px;
+}
+
+h6{
+    font-family:"Orbitron";
+    font-size:30px;
+    /* font-weight:lighter; */
+    color: #00b2ee;
+    letter-spacing: 3px;
+}
+
+
+
+.divider1{
+    height:3px;
+    background-color: #00b2ee;
+    transform: rotate(3deg);
+}
+
+
+.divider2{
+    height:3px;
+    background-color: #00b2ee;
+    transform: rotate(-3deg);
+}
+
+
+
+#svg{
+    width:50%;
+}
+
+#svg1{
+    width:70%;
+}
+
+
+
+.type{
+    font-family: monospace;
+    font-size:25px;
+    font-weight:normal;
+    line-height: 40px;
+}
+
+@-moz-document url-prefix() {
+    #caption {
+        font-family: Roboto Mono;
+        font-size: 23px;
+    }
+    .type{
+        font-family: Roboto Mono;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+  .my-svg{
+    width:"80%";
+    height:"100%"; 
+  }
+}
+
+
+
+#cartoon{
+    max-height:60%;
+    max-width:60%;
+}
+
+#carcon img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+#s1d1,#s1d2,#s1d3,#s2d1,#s2d2,#s2d3,#s3d1,#s3d2,#s3d3,#cb1,#cb2,#cb3,#tb1,#tb2,#tb3,#s4d1,#s4d2,#s4d3{
+    opacity:0;
+}
+
+html,body
+{
+
+    height: 100%;
+    
+}
+
+#content{
+    opacity:0;
+    visibility: hidden;
+}
+
+#link a:hover{
+    color: white;
+}
+
+strong{
+    font-weight:bolder;
+}
+
+.divider{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.ScrollSceneIndicators { pointer-events: none; }
+
+#carat{
+    color:black;
+}
